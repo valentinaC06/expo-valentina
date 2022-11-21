@@ -4,10 +4,10 @@ namespace App;
 
 class ClassA
 {
-    protected string $name = 'A';
+    protected static string $name = 'A';
 
-    public function getName(): string
+    public static function getName(): string
     {
-        return $this->name;
+        return static::$name;
     }
 }

@@ -4,5 +4,5 @@ namespace App;
 
 class ClassB extends ClassA
 {
-protected string $name= '8';
+    protected static string $name = 'B';
 }

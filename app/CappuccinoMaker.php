@@ -2,7 +2,8 @@
 
 namespace App;
 
-class CappuccinoMaker
+class CappuccinoMaker extends CoffeeMaker
 {
+    use CappuccinoTrait;
 
 }
